@@ -6,4 +6,7 @@ from Ecom import views
 
 urlpatterns = [
   path('', views.index, name='index'),
+  path('furn', views.furnitures, name='furniture'),
+  path('elec', views.electronics, name='electronics'),
+  path('car', views.automobiles, name='automobiles')
 ]
